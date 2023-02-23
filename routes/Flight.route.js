@@ -21,7 +21,7 @@ flightsRouter.get("/flights", async (req, res) => {
 flightsRouter.get("/flights/:id", async (req, res) => {
      const ID = req.params.id;
      try {
-        const flights = await FlightModel.find( { userID: ID} );
+        const flights = await FlightModel.findOne( { _id: ID} );
         res.status(200).send(flights);
      }
      catch (err) {
