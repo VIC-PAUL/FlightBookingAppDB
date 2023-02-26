@@ -3,6 +3,7 @@ const { FlightModel } = require("../models/Flight.model");
 const flightsRouter = express.Router();
 
 
+
 flightsRouter.use(express.json());
 
 
