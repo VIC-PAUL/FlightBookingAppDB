@@ -13,6 +13,7 @@ flightsRouter.get("/flights", async (req, res) => {
        const flights = await FlightModel.find( query );
        res.status(200).send(flights);
     }
+    
     catch (err) {
       console.log("Something went wrong");
       console.log(err);
