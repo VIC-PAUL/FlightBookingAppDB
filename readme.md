@@ -1,6 +1,6 @@
 API Documentation
 
-* http://localhost:6060/api/register=>(POST) => Successfully registers user in the database.
+* http://localhost:6060/api/register=>(POST) => Successfully registers user in the database. 
 
 
 * http://localhost:6060/api/login=>(POST) => Successfully logs in users in their accounts else they are not allowed or are asked to register first if not registered. 
